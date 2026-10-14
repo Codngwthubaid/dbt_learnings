@@ -1,0 +1,55 @@
+Employee_ID,Job_Title,Experience_Level,State,Salary_INR_LPA,Remote_Ratio
+DE_IN_001,Data Engineer,Entry-level,Telangana,5.6,0
+DE_IN_002,Senior Data Engineer,Senior,Telangana,17.0,0
+DE_IN_003,Associate Data Engineer,Entry-level,Karnataka,7.4,100
+DE_IN_004,Data Engineer,Entry-level,Maharashtra,7.7,0
+DE_IN_005,Data Engineer,Mid-level,Telangana,10.5,50
+DE_IN_006,Data Engineer,Mid-level,Karnataka,11.3,50
+DE_IN_007,Senior Data Engineer,Senior,Tamil Nadu,20.9,50
+DE_IN_008,Data Engineer,Mid-level,Karnataka,14.4,50
+DE_IN_009,Senior Data Engineer,Senior,Maharashtra,16.0,50
+DE_IN_010,Senior Data Engineer,Senior,West Bengal,24.5,50
+DE_IN_011,Data Engineer,Mid-level,Karnataka,11.3,0
+DE_IN_012,Senior Data Engineer,Senior,Telangana,22.7,100
+DE_IN_013,Senior Data Engineer,Senior,Karnataka,17.8,100
+DE_IN_014,Data Engineer,Entry-level,Telangana,8.8,0
+DE_IN_015,Senior Data Engineer,Senior,Tamil Nadu,19.4,0
+DE_IN_016,Principal Data Engineer,Lead,Karnataka,30.7,100
+DE_IN_017,Data Engineer,Mid-level,Maharashtra,10.6,50
+DE_IN_018,Data Engineer,Mid-level,Telangana,13.1,0
+DE_IN_019,Associate Data Engineer,Entry-level,Maharashtra,8.1,0
+DE_IN_020,Data Engineer,Mid-level,Telangana,9.0,50
+DE_IN_021,Lead Data Engineer,Lead,Maharashtra,37.2,100
+DE_IN_022,Senior Data Engineer,Senior,Telangana,19.5,0
+DE_IN_023,Principal Data Engineer,Lead,Maharashtra,46.2,100
+DE_IN_024,Senior Data Engineer,Senior,Delhi,18.3,100
+DE_IN_025,Data Engineer,Entry-level,Maharashtra,8.2,100
+DE_IN_026,Data Engineer,Mid-level,Delhi,11.7,0
+DE_IN_027,Senior Data Engineer,Senior,Delhi,24.1,50
+DE_IN_028,Associate Data Engineer,Entry-level,Karnataka,5.1,0
+DE_IN_029,Data Engineer,Mid-level,West Bengal,8.9,100
+DE_IN_030,Data Engineer,Mid-level,Maharashtra,11.3,50
+DE_IN_031,Lead Data Engineer,Lead,Haryana,37.1,50
+DE_IN_032,Data Engineer,Mid-level,Uttar Pradesh,11.3,100
+DE_IN_033,Associate Data Engineer,Entry-level,Maharashtra,6.4,0
+DE_IN_034,Associate Data Engineer,Entry-level,Maharashtra,6.1,50
+DE_IN_035,Data Engineer,Entry-level,Karnataka,5.5,100
+DE_IN_036,Data Engineer,Entry-level,Maharashtra,7.9,0
+DE_IN_037,Data Engineer,Mid-level,Telangana,12.5,0
+DE_IN_038,Lead Data Engineer,Lead,Telangana,28.8,0
+DE_IN_039,Data Engineer,Entry-level,Karnataka,5.2,50
+DE_IN_040,Principal Data Engineer,Lead,Karnataka,43.7,0
+DE_IN_041,Lead Data Engineer,Lead,Karnataka,47.3,0
+DE_IN_042,Data Engineer,Mid-level,Karnataka,10.2,0
+DE_IN_043,Data Engineer,Entry-level,Karnataka,6.3,50
+DE_IN_044,Data Engineer,Mid-level,Karnataka,15.1,100
+DE_IN_045,Data Engineer,Entry-level,Telangana,5.4,100
+DE_IN_046,Senior Data Engineer,Senior,Maharashtra,17.0,100
+DE_IN_047,Data Engineer,Mid-level,Delhi,8.4,100
+DE_IN_048,Associate Data Engineer,Entry-level,Karnataka,7.5,0
+DE_IN_049,Data Engineer,Mid-level,Haryana,12.3,0
+DE_IN_050,Data Engineer,Mid-level,Telangana,13.4,50
+DE_IN_051,Senior Data Engineer,Senior,Karnataka,18.6,100
+DE_IN_052,Data Engineer,Mid-level,Telangana,17.1,0
+DE_IN_053,Lead Data Engineer,Lead,Maharashtra,27.0,50
+DE_IN_054,Data Engineer,Mid-level,Karnataka,8.8,50

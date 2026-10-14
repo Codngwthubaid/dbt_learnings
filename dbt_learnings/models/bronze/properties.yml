@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: bronze_date #  Must match the filename of a model -- including case sensitivity.
+    config:
+        materialized: view
+        schema: bronze
+  
+  - name: bronze_product
+    config:
+        materialized: view
+        schema: bronze
+    
+  - name: bronze_sales
+    columns: 
+      - name: sales_id
+        data_tests:
+          - not_null
+          - unique
+      - name: gross_amount
+        data_tests:
+          - generic_non_negative
+
+  - name: bronze_store
+    columns: 
+      - name: store_sk
+        data_tests:
+          - not_null
+          - unique
+          
+
+      - name: store_name
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [
+                  "MegaMart Toronto",
+                  "MegaMart San Jose",
+                  "MegaMart Manhattan",
+                  "MegaMart Brooklyn",
+                  "MegaMart Austin"
+                ] 
+              config:
+                severity: warn # by adding severity as warn - now if our this test will failed as well then also it didn't throw any error it only gives a warning that this 
+
+

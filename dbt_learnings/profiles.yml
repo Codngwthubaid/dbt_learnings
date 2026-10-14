@@ -1,0 +1,26 @@
+dbt_learnings:
+  outputs:
+    dev:
+      catalog: dbt_learnings
+      host: dbc-cea51fc3-ef6e.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/368fd5b6d08b68ab
+      schema: source_files
+      threads: 1
+      token: "{{ env_var('DBT_ENV_SECRET_DATABRICKS_TOKEN') }}"
+      type: databricks
+    prod:
+      catalog: dbt_learnings_deployment
+      host: dbc-cea51fc3-ef6e.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/368fd5b6d08b68ab
+      schema: source_files
+      threads: 1
+      token: "{{ env_var('DBT_ENV_SECRET_DATABRICKS_TOKEN') }}"
+      type: databricks
+  target: dev
+
+
+# for converting from dev env to prod env we want to dynamically update the target location. so, we want to write the catalog name dynamically
+# static way to write the catalog name
+# catalog: dbt_learnings
+# dynamic way to write the catalog name
+# catalog: '{{ target.catalog }}'
